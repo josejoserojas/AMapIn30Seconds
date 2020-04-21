@@ -1,7 +1,7 @@
 # A Map In 30 Seconds
 How to add a map in your website in 30secs or less.
 
-Adding a map to a website has never been easier. With TomTom’s Maps SDK for Web, you can quickly add a map element to your project with access to all of the TomTom location, routing, and traffic APIs. All that’s required is a basic HTML document, the Maps SDK, and a few simple lines of JavaScript code. In this article, we’ll show you how to get a map running in a few easy steps.
+Adding a map to a website has never been easier. With TomTom’s Maps SDK for Web (http://developer.tomtom.com), you can quickly add a map element to your project with access to all of the TomTom location, routing, and traffic APIs. All that’s required is a basic HTML document, the Maps SDK, and a few simple lines of JavaScript code. In this article, we’ll show you how to get a map running in a few easy steps.
 
 
 
