@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html class='use-all-space'>
+<head>
+    <meta http-equiv='X-UA-Compatible' content='IE=Edge' />
+    <meta charset='UTF-8'>
+    <title>Maps SDK for Web - Vector map</title>
+    <meta name='viewport'
+          content='width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no'/>
+    <link rel='stylesheet' type='text/css' href='https://api.tomtom.com/maps-sdk-for-web/cdn/5.x/5.39.0/maps/maps.css'>
+    <script src="https://api.tomtom.com/maps-sdk-for-web/cdn/5.x/5.39.0/maps/maps-web.min.js"></script>
+
+</head>
+<body>
+    <div style="width:100vw; height: 100vh;" id='map'></div>
+    
+    <script>
+        var map = tt.map({
+            key: 'YOUR_API_KEY_HERE',
+            container: 'map',
+            basePath: 'sdk/',
+            center: [-3.703790,40.416775], // Madrid
+            zoom: 12,
+            theme: {
+                style: 'buildings',
+                layer: 'basic',
+                source: 'vector'
+            }
+        });
+        map.addControl(new tt.NavigationControl());
+
+    </script>
+</body>
+</html>
